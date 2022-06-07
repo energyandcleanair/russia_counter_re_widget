@@ -44,12 +44,12 @@ const update_ui = (data)=>{
     
     
     // Renewable energy
-    document.getElementById('offshore_units').innerText = Math.floor(data.total_eur_updated / 32749122.81 / 6).toLocaleString('en-US');
-    document.getElementById('onshore_units').innerText = Math.floor(data.total_eur_updated / 5315789.47 / 6).toLocaleString('en-US');
-    document.getElementById('solarrooftop_units').innerText = Math.floor(data.total_eur_updated / 13603.07 / 6).toLocaleString('en-US');
-    document.getElementById('solarutility_units').innerText = Math.floor(data.total_eur_updated / 1377894.74 / 6).toLocaleString('en-US');
-    document.getElementById('heatpump_units').innerText = Math.floor(data.total_eur_updated / 10701.75 / 6).toLocaleString('en-US');
-    document.getElementById('insulatedhome_units').innerText = Math.floor(data.total_eur_updated / 36609.33 / 6).toLocaleString('en-US');
+    document.getElementById('offshore_units').innerText = Math.floor(data.total_eur_updated / 32743215 / 6).toLocaleString('en-US');
+    document.getElementById('onshore_units').innerText = Math.floor(data.total_eur_updated /  5846314 / 6).toLocaleString('en-US');
+    document.getElementById('solarrooftop_units').innerText = Math.floor(data.total_eur_updated / 14961 / 6).toLocaleString('en-US');
+    document.getElementById('solarutility_units').innerText = Math.floor(data.total_eur_updated /  1515411 / 6).toLocaleString('en-US');
+    document.getElementById('heatpump_units').innerText = Math.floor(data.total_eur_updated / 11079 / 6).toLocaleString('en-US');
+    document.getElementById('insulatedhome_units').innerText = Math.floor(data.total_eur_updated /  39318 / 6).toLocaleString('en-US');
 
 }
 
